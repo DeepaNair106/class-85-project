@@ -122,7 +122,7 @@ function my_keydown(e) {
 
     }
 
-    if(car1_x > 700){
+    if(car1_x > 650){
 
         console.log("car1 Won");
         document.getElementById('game_status').innerHTML = "Car 1 Won!";
@@ -130,7 +130,7 @@ function my_keydown(e) {
         }
 
         
-        if(car2_x > 700){
+        if(car2_x > 650){
 
             console.log("car2 Won");
             document.getElementById('game_status').innerHTML = "Car 2 Won!";
